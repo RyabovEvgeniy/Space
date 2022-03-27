@@ -30,15 +30,44 @@ body {
 /* ===== end main ===== */
 
 .header {
+	padding: 23px 0px 23px 0px;
 }
 .header__container {
+
+}
+.header__row {
+	min-height: 78px;
+	display: flex;
+	justify-content: space-between;
 }
 .header__logo {
+	display: flex;
+	font-size: 32px;
+	line-height: 0.63;
+	color: #2e2e2e;
+}
+
+.header__logo::before {
+	content: "";
+	display: inline-block;
+	width: 37px;
+	height: 37px;
+	background: url('../img/header_logo.svg') 0 0 no-repeat;
+	margin: 0px 13px 0px 0px;
+}
+.header__logo:hover {
+	text-decoration: underline;
 }
 .social {
 }
 .social__link {
 	color: #000000;
+}
+.social__link:hover {
+	text-decoration: underline;
+}
+.social__link:not(:last-child) {
+	margin: 0px 19px 0px 0px;
 }
 .fa-brands {
 }
