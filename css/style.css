@@ -1,0 +1,46 @@
+/* ===== wrapper ===== */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+/* ===== end wrapper ===== */
+
+/* ===== container ===== */
+[class*="__container"] {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0px 15px; /* * Отступы безопасности, что бы контент не прилипал к краям экрана */
+}
+/* =====  end container ===== */
+
+/* ===== body ===== */
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 23px;
+	color: #22356f;
+}
+/* ===== end body ===== */
+
+/* ===== main ===== */
+.main {
+	flex: 1 1 auto;
+}
+/* ===== end main ===== */
+
+.header {
+}
+.header__container {
+}
+.header__logo {
+}
+.social {
+}
+.social__link {
+	color: #000000;
+}
+.fa-brands {
+}
+.fa-facebook-square {
+}
