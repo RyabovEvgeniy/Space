@@ -29,6 +29,7 @@ body {
 }
 /* ===== end main ===== */
 
+/* ===== header ===== */
 .header {
 	/* * Фиксация шапки абсолютно */
 	position: absolute;
@@ -37,11 +38,12 @@ body {
 	top: 0;
 	z-index: 50;
 	padding: 23px 0px 23px 0px;
+	background-color: #fff;
 }
 .header__container {
 }
 .header__row {
-	min-height: 78px;
+	max-height: 78px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -78,3 +80,34 @@ body {
 }
 .fa-facebook-square {
 }
+/* ===== end header ===== */
+
+/* ===== get ===== */
+.get {
+	background-color: #fac960;
+}
+.get__container {
+}
+.get__row {
+	/* margin: 78px 0px 0px 0px; */
+}
+.get__content {
+	padding: 170px 0px 92px 0px;
+}
+.content-get {
+}
+.content-get__title {
+	font-size: 44px;
+	line-height: 1.23;
+	text-align: center;
+	color: #8a6d2f;
+}
+.content-get__text {
+	font-size: 44px;
+	line-height: 1.23;
+	text-align: center;
+	color: #8a6d2f;
+}
+.content-get__form {
+}
+/* ===== end get ===== */
