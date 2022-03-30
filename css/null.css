@@ -20,6 +20,12 @@ a:visited {
 a:hover {
 	text-decoration: none;
 }
+/* Remove outline on the forms and links */
+/* Универсальное решение, которое убирает подсветку во всех браузерах и не только на input, но и на других элементах, в том числе select, button, a: */
+:active, :hover, :focus {
+	outline: 0;
+	outline-offset: 0;
+}
 h1,
 h2,
 h3,

@@ -53,7 +53,6 @@ body {
 	line-height: 0.63;
 	color: #2e2e2e;
 }
-
 .header__logo::before {
 	content: "";
 	display: inline-block;
@@ -89,7 +88,6 @@ body {
 .get__container {
 }
 .get__row {
-	/* margin: 78px 0px 0px 0px; */
 }
 .get__content {
 	padding: 170px 0px 92px 0px;
@@ -107,7 +105,34 @@ body {
 	line-height: 1.23;
 	text-align: center;
 	color: #8a6d2f;
+	margin: 0px 0px 40px 0px;
 }
 .content-get__form {
+	display: flex;
+	text-align: center;
+	margin: 0px 0px 24.8px 0px;
+}
+.content-get__input {
+	font-size: 30px;
+	line-height: 1.8;
+	text-align: center;
+	color: #999999;
+	border-radius: 2px 0px 0px 2px;
+	padding: 0px 194px 0px 36px;
+}
+.content-get__input:focus {
+	box-shadow: 2px 2px 20px 5px #999999;
+}
+.content-get__button {
+	font-size: 30px;
+	line-height: 1.8;
+	text-align: center;
+	color: #fff;
+	background: #a8863d;
+	border-radius: 0px 2px 2px 0px;
+	padding: 0px 37px 0px 37px;
+}
+.content-get__button:focus {
+	box-shadow: 2px 2px 20px 5px #999999;
 }
 /* ===== end get ===== */
