@@ -197,6 +197,7 @@ body {
 /* ===== mobile ===== */
 .mobile {
 	padding: 80px 0px 406px;
+	overflow: hidden;
 }
 
 .mobile__container {}
@@ -231,3 +232,54 @@ body {
 }
 
 /* ===== end mobile ===== */
+
+/* ===== tell ===== */
+.tell {
+	padding: 54px 0px 107px;
+	background-color: #FAC960;
+}
+
+.tell__container {}
+
+.tell__row {}
+
+.tell__content {}
+
+.content-tell {
+	text-align: center;
+}
+
+.content-tell__title {
+	font-size: 37px;
+	line-height: 0.97;
+	color: #8A6D2F;
+	margin-bottom: 31px;
+}
+
+.content-tell__text {
+	font-size: 22px;
+	line-height: 1.36;
+	color: rgba(0, 0, 0, 0.4);
+	margin-bottom: 33px;
+}
+
+.content-tell__link {
+	background-color: #fff;
+	border: 1px solid #758696;
+	border-radius: 3px;
+	width: 61px;
+	height: 22px;
+	padding: 0px 22px;
+	color: #999999;;
+}
+
+.content-tell__link:hover {
+	box-shadow: 2px 2px 20px 5px #999999;
+}
+
+.content-tell__link:active {
+	position: relative;
+	top: 1px;
+}
+
+/* ===== end tell ===== */
