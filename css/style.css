@@ -283,3 +283,35 @@ body {
 }
 
 /* ===== end tell ===== */
+
+/* ===== footer ===== */
+.footer {
+	padding: 80px 0px;
+	background-color: #F2F2F2;
+}
+.footer__container {
+}
+.footer__row {
+	text-align: center;
+}
+.footer__logo {
+	margin-bottom: 24px;
+}
+.footer__social {
+}
+.social {
+}
+.social__link {
+}
+.fab {
+}
+.fa-twitter {
+}
+.fa-facebook-square {
+}
+.fa {
+}
+.fa-envelope {
+}
+/* ===== end footer ===== */
+
