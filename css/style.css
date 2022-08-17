@@ -348,6 +348,18 @@ body {
 	.content-get__title, .content-get__text {
 		font-size: 32px;
 	}
+
+	.space {
+		padding: 50px 0px 30px;
+	}
+	.content-space__title {
+		font-size: 32px;
+		margin: 0px 0px 20px 0px;
+	}
+	.content-space__text {
+		font-size: 19px;
+		margin: 0px 0px 30px 0px;
+	}
 }
 
 @media (max-width: 760px) {
@@ -387,6 +399,16 @@ body {
 	.content-get__button {
 		font-size: 19px;
 	}
+
+	.space {
+		padding: 30px 0px 10px 0px;
+	}
+	.content-space__title {
+		font-size: 24px;
+	}
+	.content-space__text {
+		font-size: 16px;
+	}
 }
 
 @media (max-width: 400px) {
@@ -401,6 +423,13 @@ body {
 	}
 	.content-get__button {
 		font-size: 16px;
+	}
+
+	.content-space__title {
+		font-size: 19px;
+	}
+	.content-space__text {
+		font-size: 13px;
 	}
 }
 
