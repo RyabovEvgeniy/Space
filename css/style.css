@@ -35,6 +35,14 @@ body {
 
 /* ===== end main ===== */
 
+/* ===== end main ===== */
+.none {
+	display: none !important;
+}
+/* ===== end main ===== */
+
+
+
 /* ===== header ===== */
 .header {
 	/* * Фиксация шапки абсолютно */
@@ -53,10 +61,12 @@ body {
 	max-height: 78px;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .header__logo {
 	display: flex;
+	align-items: center;
 	font-size: 32px;
 	line-height: 0.63;
 	color: #2e2e2e;
@@ -315,3 +325,99 @@ body {
 }
 /* ===== end footer ===== */
 
+/* ===== media ===== */
+
+@media (max-width: 870px) {
+	.header {
+		padding: 15px 0px 15px 0px;
+	}
+	.get__content {
+		padding: 130px 0px 30px 0px;
+	}
+	.content-get__form {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.content-get__input {
+		font-size: 24px;
+	}
+	.content-get__button {
+		font-size: 24px;
+	}
+	.content-get__title, .content-get__text {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 760px) {
+	.header {
+		padding: 10px 0px 10px 0px;
+	}
+	.get__content {
+		padding: 80px 0px 10px 0px;
+	}
+	.content-get__text{
+		margin: 0px 0px 20px 0px;
+	}
+	.content-get__form {
+		margin: 0px 0px 10px 0px;
+	}
+	.content-get__input {
+		margin-bottom: 15px;		
+	}
+}
+
+@media (max-width: 550px) {
+	.header {
+		padding: 5px 0px 5px 0px;
+	}
+	.get__content {
+    padding: 70px 0px 5px 0px;
+	}
+	.content-get__input {
+		padding: 0px 80px 0px 20px;
+	}
+	.content-get__title, .content-get__text {
+		font-size: 24px;
+	}
+	.content-get__input {
+		font-size: 19px;
+	}
+	.content-get__button {
+		font-size: 19px;
+	}
+}
+
+@media (max-width: 400px) {
+	.content-get__input {
+		padding: 0px 80px 0px 20px;
+	}
+	.content-get__title, .content-get__text {
+		font-size: 19px;
+	}
+	.content-get__input {
+		font-size: 16px;
+	}
+	.content-get__button {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 330px) {
+	.content-get__input {
+		padding: 0px 80px 0px 20px;
+	}
+	.content-get__title, .content-get__text {
+		font-size: 16px;
+	}
+	.content-get__input {
+		font-size: 13px;
+	}
+	.content-get__button {
+		font-size: 13px;
+	}
+	.content-get__text {
+		margin: 0px 0px 20px 0px;
+	}
+}
